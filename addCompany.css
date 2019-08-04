@@ -1,0 +1,133 @@
+body {
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+}
+
+.info-box{
+  width: 100%;
+  height: 40vw;
+  background: #0a0c1c;
+  box-shadow: 0.3vw 0.3vw 1vw grey;
+}
+.ref-box{
+  width: 100%;
+  height: 20%;
+}
+.ref-box h2{
+  padding: 2vw;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.3vw;
+  float: left;
+  color: white;
+  margin-left: 1vw;
+}
+
+.ref-box button{
+  font-size: 1vw;
+  float: right;
+  margin: 3vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  border: 0.1vw solid #55aded;
+  border-radius: 0.5vw;
+  outline: none;
+  background: #0a0c1c;
+  color: #55aded;
+}
+
+
+.master-div{
+  width: 50%;
+}
+
+.ref2-box{
+  width: 100%;
+  height: 1%;
+}
+
+.ref2-box h2{
+  margin-top: 2vw;
+  margin-left: 10vw;
+  color: white;
+}
+
+.ref3-box{
+  width: 100%;
+  height: 1%;
+}
+
+.ref3-box h3{
+  margin-top: 2vw;
+  margin-left: 10vw;
+  color: white;
+}
+
+.content{
+  width: 70%;
+  height: 5%;
+}
+
+.content p{
+  font-size: 1vw;
+  margin-top: 2vw;
+  margin-left: 12vw;
+  color: white;
+}
+
+.registration-section{
+  margin-top: 5vw;
+  margin-right: 7vw;
+  width: 10%;
+  float: right;
+  font-family: 'Nunito', sans-serif;
+}
+
+.registration-section h1{
+  width: 100%;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.code-div input{
+  outline: none;
+  font-size: 1vw;
+  border: 0vw;
+  border-radius: 0.5vw;
+  background: #fff;
+  padding-left: 0.3vw;
+  height: 2vw;
+  width: 15vw;
+}
+
+.companyName-div input{
+  margin-top: 1vw;
+  outline: none;
+  font-size: 1vw;
+  border: 0vw;
+  border-radius: 0.5vw;
+  background: #fff;
+  padding-left: 0.3vw;
+  height: 2vw;
+  width: 15vw;
+}
+
+.register-div button{
+  font-size: 1vw;
+  float: right;
+  margin-right: 2vw;
+  margin-top: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  border: 0.1vw solid #55aded;
+  border-radius: 0.5vw;
+  outline: none;
+  background: #0a0c1c;
+  color: #55aded;
+}

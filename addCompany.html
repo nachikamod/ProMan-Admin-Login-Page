@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ProMan Admin</title>
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="addCompany.css" />
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+      var firebaseConfig = {
+        apiKey: "AIzaSyDx2ExBSoWJqeChyE8GXyXwYIhD-rktHx8",
+        authDomain: "proman-56b51.firebaseapp.com",
+        databaseURL: "https://proman-56b51.firebaseio.com",
+        projectId: "proman-56b51",
+        storageBucket: "proman-56b51.appspot.com",
+        messagingSenderId: "945680656401",
+        appId: "1:945680656401:web:34df68fda632f98e"
+      };
+  // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <div class="info-box">
+      <div class="ref-box">
+        <h2>PraN</h2>
+        <button onclick="logout()">logout</button>
+      </div>
+      <div class="registration-section">
+        <h1>Registration</h1>
+        <div class="code-div">
+          <input type="text" placeholder="Unique Code..." id="unique_code">
+        </div>
+        <div class="companyName-div">
+          <input type="text" placeholder="Company Name..." id="company_name">
+        </div>
+        <div class="register-div">
+          <button onclick="register()">Register</button>
+        </div>
+      </div>
+      <div class="master-div">
+        <div class="ref2-box">
+          <h2>Project Manger 1.0</h2>
+        </div>
+        <div class="ref3-box">
+          <h3>ProMan Admin Portal</h3>
+        </div>
+        <div class="content">
+          <p>ProMan admin portal is for registering the comapny and company key to the database. ProMan is basically a project manager app to share contents of project. Set tasks and the deadlines related to that task under one roof. ProMan also shows the project progress data. We can also share the documents related to project to our colleagues under the same roof.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

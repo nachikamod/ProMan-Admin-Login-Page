@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ProMan Admin</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+
+  </head>
+  <body onload="see()">
+    <div class="login-div">
+      <img src="icon.png">
+      <h1>ProMan Admin Login</h1>
+      <div class="email-div">
+        <input type="email" placeholder="Email..." id="admin_email">
+      </div>
+      <div class="password-div">
+        <input type="password" placeholder="password..." id="admin_password">
+      </div>
+      <div class="button-div">
+        <button onclick="login()">Login</button>
+      </div>
+    </div>
+  </body>
+</html>
